@@ -1,0 +1,189 @@
+# ---------------------------- Project Information ----------------------------
+#
+# Project: SSN4PaCDM KEGG Pathway Analysis
+# Description: This script performs KEGG pathway enrichment analysis on a list of genes associated
+#              with pancreatic cancer-associated diabetes mellitus (PaCDM). The analysis includes
+#              data filtering and visualization.
+#
+# Author: Ze Zhang
+# Organization: University of Chinese Academy of Sciences
+# Date: 2024/11/15
+# Email: zaakzoeng@gmail.com
+#
+# Usage: Ensure that required packages are installed before running this script.
+#        Adjust file paths as necessary for your system.
+#
+# ---------------------------- End of Project Information ----------------------------
+
+
+## ---------------------------- Install Required Packages ----------------------------
+
+# Load required libraries
+library(clusterProfiler)
+library(org.Hs.eg.db)
+library(remotes)
+library(KEGG.db)
+library(ggplot2)
+
+# Create KEGG database if needed
+# remotes::install_github("YuLab-SMU/createKEGGdb")
+# createKEGGdb::create_kegg_db("hsa")
+
+## ---------------------------- Read Gene List ----------------------------
+
+file_path <- "./01.SSN4PaCDM_kegg_gene_list.txt"
+diff_gene <- readLines(file_path)
+
+# Convert gene symbols to Entrez IDs
+geneset_id <-
+  bitr(
+    diff_gene,
+    fromType = 'SYMBOL',
+    toType = c('ENTREZID'),
+    OrgDb = 'org.Hs.eg.db'
+  )
+
+## ---------------------------- KEGG Enrichment Analysis ----------------------------
+
+diff_gene_kegg <- enrichKEGG(
+  geneset_id[, 2],
+  organism = 'hsa',
+  keyType = 'kegg',
+  pvalueCutoff = 1,
+  pAdjustMethod = 'BH',
+  qvalueCutoff = 1,
+  use_internal_data = TRUE
+)
+
+## ---------------------------- Plotting and Saving ----------------------------
+
+# Plot bar and dot plots and save as PDF
+plot_bar <-
+  barplot(
+    diff_gene_kegg,
+    showCategory = 20,
+    title = "All genes",
+    label_format = 60
+  )
+plot_bar
+plot_dot <-
+  dotplot(
+    diff_gene_kegg,
+    showCategory = 20,
+    title = "All genes",
+    label_format = 60,
+    color = "pvalue"
+  )
+plot_dot
+
+ggsave(
+  "./02.SSN4PaCDM_all_genes_barplot_kegg.pdf",
+  plot = plot_bar,
+  width = 8,
+  height = 7
+)
+ggsave(
+  "./02.SSN4PaCDM_all_genes_dotplot_kegg.pdf",
+  plot = plot_dot,
+  width = 8,
+  height = 7
+)
+
+## ---------------------------- Filter for Insulin Signaling Pathway ----------------------------
+
+library(dplyr)
+
+insulin_pathway <-
+  diff_gene_kegg@result %>% filter(Description == "Insulin signaling pathway")
+diff_gene_kegg_insulin <- diff_gene_kegg
+diff_gene_kegg_insulin@result <- insulin_pathway
+plot_insulin <-
+  dotplot(
+    diff_gene_kegg_insulin,
+    showCategory = 20,
+    title = "Insulin signaling pathway",
+    label_format = 60,
+    color = "pvalue"
+  )
+
+plot_insulin
+ggsave(
+  "./03.SSN4PaCDM_insulin_kegg_pathway.pdf",
+  plot = plot_insulin,
+  width = 8,
+  height = 7
+)
+
+## ---------------------------- Filter for p-value <= 0.05 ----------------------------
+
+library(ggplot2)
+
+diff_gene_kegg_filtered <- diff_gene_kegg@result %>%
+  filter(pvalue <= 0.05) %>%
+  arrange(pvalue) %>%
+  mutate(EnrichmentScore = -log10(pvalue))
+
+plot_limited <-
+  ggplot(diff_gene_kegg_filtered, aes(x = EnrichmentScore, y = reorder(Description, EnrichmentScore))) +
+  geom_point(aes(size = Count, color = pvalue)) +
+  scale_color_continuous(low = "red",
+                         high = "blue",
+                         name = "pvalue") +
+  labs(x = "EnrichmentScore (-log10(pvalue))", y = "Pathway", title = "KEGG Enrichment Analysis") +
+  theme_minimal() +
+  theme(
+    panel.border = element_rect(
+      color = "black",
+      fill = NA,
+      size = 1
+    ),
+    panel.grid.major = element_line(color = "gray", linetype = "dashed"),
+    panel.grid.minor = element_line(color = "gray", linetype = "dashed")
+  )
+
+plot_limited
+ggsave(
+  "./04.SSN4PaCDM_kegg_filtered.pdf",
+  plot = plot_limited,
+  width = 8,
+  height = 7
+)
+
+## ---------------------------- Custom Color Plot for Specific p-value Range ----------------------------
+
+diff_gene_kegg_filtered <- diff_gene_kegg@result %>%
+  filter(pvalue >= 0.00055 & pvalue <= 0.005) %>%
+  arrange(pvalue) %>%
+  mutate(EnrichmentScore = -log10(pvalue))
+
+custom_palette <-
+  colorRampPalette(c(
+    rgb(255, 158, 2, maxColorValue = 255),
+    rgb(144, 201, 231, maxColorValue = 255)
+  ))
+
+plot_scaled <-
+  ggplot(diff_gene_kegg_filtered, aes(x = EnrichmentScore, y = reorder(Description, EnrichmentScore))) +
+  geom_point(aes(size = Count, color = pvalue)) +
+  scale_color_continuous(low = custom_palette(2)[1],
+                         high = custom_palette(2)[2],
+                         name = "pvalue") +
+  labs(x = "EnrichmentScore (-log10(pvalue))", y = "Pathway", title = "KEGG Enrichment Analysis") +
+  theme_minimal() +
+  theme(
+    panel.border = element_rect(
+      color = "black",
+      fill = NA,
+      size = 1
+    ),
+    panel.grid.major = element_line(color = "gray", linetype = "dashed"),
+    panel.grid.minor = element_line(color = "gray", linetype = "dashed")
+  )
+
+plot_scaled
+ggsave(
+  "./05.SSN4PaCDM_kegg_scaled.pdf",
+  plot = plot_scaled,
+  width = 8,
+  height = 7
+)
