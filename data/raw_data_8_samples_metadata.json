@@ -1,0 +1,3407 @@
+[{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0248320009", 
+      "entity_type": "aliquot", 
+      "case_id": "ac1dcb50-a6e2-4956-ab3e-2278d51bc4e1", 
+      "entity_id": "c0c0a07e-f00f-426f-a250-7d13537f358f"
+    }
+  ], 
+  "file_name": "70bfb00d-4b93-42f1-b297-893549d347c8.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "54580e8c-0180-4d47-ae9b-5e78cdf282db", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9901468323023072, 
+        "total_reads": 170138584, 
+        "access": "controlled", 
+        "file_name": "70bfb00d-4b93-42f1-b297-893549d347c8.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.00349027, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "191c6894-18a4-46b6-8152-e22b2e417c7b", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 8393458748, 
+        "created_datetime": "2022-04-04T15:52:09.561231-05:00", 
+        "average_base_quality": 39, 
+        "md5sum": "95ef814ffe3604341fd01d32ddee7d02", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "4a959573-325a-4240-bf33-5dced950d1cc", 
+        "pairs_on_diff_chr": 34188, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 880, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:21:59.172665-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "70bfb00d-4b93-42f1-b297-893549d347c8_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "37a103f0-ec70-45ac-9e71-50d118098860", 
+    "created_datetime": "2019-11-19T12:09:24.016799-06:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4226905, 
+  "md5sum": "e5f2c025c628bf42d9996c8254930171", 
+  "file_id": "4f6e1c5d-be60-4d96-907a-8b8260a7d835", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0264180009", 
+      "entity_type": "aliquot", 
+      "case_id": "aa767a6a-fb5f-4020-bb7f-7d3984182a11", 
+      "entity_id": "21f4763c-7ada-4fe8-9c30-7a16b3aacbb1"
+    }
+  ], 
+  "file_name": "9daa12a8-2b13-4401-9f60-9738260ff438.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "1d3969b6-cdb4-4271-89d7-6818b0683c52", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.991096181367506, 
+        "total_reads": 182209574, 
+        "access": "controlled", 
+        "file_name": "9daa12a8-2b13-4401-9f60-9738260ff438.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002499424, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "191cc9f9-a848-47fb-9ddb-e16f8ceaf06b", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 7946778805, 
+        "created_datetime": "2022-04-04T15:40:23.060879-05:00", 
+        "average_base_quality": 40, 
+        "md5sum": "bb7372c66034ac9bbe6444c2b44291e7", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "2083ece5-80fe-423a-a2e8-d74a213bd144", 
+        "pairs_on_diff_chr": 33605, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 890, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:33:48.033886-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "9daa12a8-2b13-4401-9f60-9738260ff438_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "a585abc4-94bc-46ed-ab07-7d21ef99d1e3", 
+    "created_datetime": "2019-11-19T12:09:00.477068-06:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4228009, 
+  "md5sum": "2447111c350c713ecf16056d4ad8af2a", 
+  "file_id": "f1d63a2e-ce15-43e4-b1e4-b519ea6ab850", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "ALIQUOT181", 
+      "entity_type": "aliquot", 
+      "case_id": "08f63445-b236-4f97-b76a-2e5f4b3c5ff5", 
+      "entity_id": "f31e9cd6-1222-416c-ba93-65f5f8a9d883"
+    }
+  ], 
+  "file_name": "607e252c-188e-4b08-9f12-51aa9e791df0.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "d01a1be1-90e5-4dc1-9c07-a70d60301c76", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9298072444685554, 
+        "total_reads": 100594156, 
+        "access": "controlled", 
+        "file_name": "607e252c-188e-4b08-9f12-51aa9e791df0.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.00310976, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "f98d2b3c-597d-40a1-b232-d3f002fab206", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 5207024433, 
+        "created_datetime": "2021-12-10T09:01:03.342749-06:00", 
+        "average_base_quality": 35, 
+        "md5sum": "e0fe44b9271f7bb71ca1c643677d27fb", 
+        "updated_datetime": "2023-07-12T10:17:15.931145-05:00", 
+        "file_id": "cabb1ea8-613e-4309-b990-8d3cee6b9cd1", 
+        "pairs_on_diff_chr": 58910, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1674, 
+        "average_read_length": 125, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2021-12-10T09:06:58.841453-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "607e252c-188e-4b08-9f12-51aa9e791df0_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "10d7c570-a886-4137-87bc-31989d01d9fe", 
+    "created_datetime": "2019-04-18T08:19:09.623502-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4229305, 
+  "md5sum": "7489601e8a9ad62bbf56d37a47c4100a", 
+  "file_id": "f2514dc0-473f-476a-a8df-1937ce9bfaae", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "ALIQUOT192", 
+      "entity_type": "aliquot", 
+      "case_id": "d7ac181d-ce1b-4672-953e-aeff29615636", 
+      "entity_id": "1fc64da5-73e3-4464-ba47-3f17cd2ee6b3"
+    }
+  ], 
+  "file_name": "35ccf044-8577-4ca1-9259-2a917cdbaf1c.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "0d4767b4-d98d-4835-97a8-32e3efa875b6", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9272368317169861, 
+        "total_reads": 111816324, 
+        "access": "controlled", 
+        "file_name": "35ccf044-8577-4ca1-9259-2a917cdbaf1c.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002973718, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "d227db53-1a64-42aa-9868-1b5bdae43500", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 5975898002, 
+        "created_datetime": "2021-12-10T09:03:30.063345-06:00", 
+        "average_base_quality": 35, 
+        "md5sum": "044e44b38147fadc443175d19395b9fd", 
+        "updated_datetime": "2023-07-12T10:17:15.931145-05:00", 
+        "file_id": "5130ae4a-2362-46e6-905c-5931f201fb79", 
+        "pairs_on_diff_chr": 61924, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1691, 
+        "average_read_length": 125, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2021-12-10T09:07:33.117983-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "35ccf044-8577-4ca1-9259-2a917cdbaf1c_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "f666fa52-30a6-4ef3-a8db-4e2635e6db93", 
+    "created_datetime": "2019-04-18T08:17:09.249648-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4232353, 
+  "md5sum": "36befe6af13a345b4dad829fe3a8b21c", 
+  "file_id": "ca3d5c57-027b-48b5-b83d-25a796d100a0", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "ALIQUOT160", 
+      "entity_type": "aliquot", 
+      "case_id": "789c341c-8797-4253-8bf9-93638c4d7de6", 
+      "entity_id": "bf4de7fe-6a77-4b12-8e9f-a1910d476aec"
+    }
+  ], 
+  "file_name": "00d56586-7c04-4ce3-a3ca-fe144cb65f01.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "974ebca0-18ac-4a76-9190-e0d73034e730", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9252584234872601, 
+        "total_reads": 95545108, 
+        "access": "controlled", 
+        "file_name": "00d56586-7c04-4ce3-a3ca-fe144cb65f01.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.003157197, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "a16cb09c-a495-4b51-a8a1-de55139e5e45", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 5525481276, 
+        "created_datetime": "2021-12-10T09:00:33.583014-06:00", 
+        "average_base_quality": 35, 
+        "md5sum": "60fe208304883a673ebb94fa94bbdbab", 
+        "updated_datetime": "2023-07-12T10:17:15.931145-05:00", 
+        "file_id": "c5334e94-f0b0-44ff-96a4-b6ba825ec470", 
+        "pairs_on_diff_chr": 39166, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1681, 
+        "average_read_length": 125, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2021-12-10T09:06:52.439215-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "00d56586-7c04-4ce3-a3ca-fe144cb65f01_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "9efc18d4-a175-4f13-92df-cb52771c66ec", 
+    "created_datetime": "2019-04-18T08:18:39.464287-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4225420, 
+  "md5sum": "93deac06402d93760312886f7a03de17", 
+  "file_id": "58d39e64-36d6-4584-ab8a-058d017a72ff", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "ALIQUOT191", 
+      "entity_type": "aliquot", 
+      "case_id": "aaece851-ced6-4816-9cf2-2fa506f2bc79", 
+      "entity_id": "aa07890d-f6a2-40dd-b132-34add476aa30"
+    }
+  ], 
+  "file_name": "cef94655-3ff3-4863-b747-eea2e2bcb3bc.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "40907c68-3f8e-4a2a-bcc7-9ff9de02c581", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9138226746121685, 
+        "total_reads": 94614540, 
+        "access": "controlled", 
+        "file_name": "cef94655-3ff3-4863-b747-eea2e2bcb3bc.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.003018663, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "28cc8f67-9ee0-4702-aa61-dd10764f113c", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 5151947496, 
+        "created_datetime": "2021-12-10T08:59:26.086962-06:00", 
+        "average_base_quality": 35, 
+        "md5sum": "5adbebc4cff23ba37d54b91efee4b32e", 
+        "updated_datetime": "2023-07-12T10:17:15.931145-05:00", 
+        "file_id": "9ff6a09c-f79a-4811-9a9c-a83d63320d97", 
+        "pairs_on_diff_chr": 65747, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1711, 
+        "average_read_length": 125, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2021-12-10T09:06:38.395720-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "cef94655-3ff3-4863-b747-eea2e2bcb3bc_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "f22496b3-33b6-495b-a999-ff1538f4ccbe", 
+    "created_datetime": "2019-04-18T08:18:07.192181-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4226459, 
+  "md5sum": "017e0be814199156788e1d75f6364b31", 
+  "file_id": "7de56cdb-0125-48a5-8cb4-f170cf733428", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "ALIQUOT215", 
+      "entity_type": "aliquot", 
+      "case_id": "f3aa1797-24fc-4fd1-a9f0-35acbc767562", 
+      "entity_id": "0a964bc5-38fe-487e-8fee-860a09913318"
+    }
+  ], 
+  "file_name": "e140679f-8e3c-4abe-b935-58649053799d.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "d1b56222-5b31-4a91-ae9d-f0d5b7d1d105", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.965789970125033, 
+        "total_reads": 107311248, 
+        "access": "controlled", 
+        "file_name": "e140679f-8e3c-4abe-b935-58649053799d.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002806515, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "c98ad2c0-3926-4117-b51a-6f622869dc7c", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 5502025849, 
+        "created_datetime": "2021-12-10T09:02:06.655545-06:00", 
+        "average_base_quality": 35, 
+        "md5sum": "d0fd91b9ea4e298ff2be49c2124fa2f8", 
+        "updated_datetime": "2023-07-12T10:17:15.931145-05:00", 
+        "file_id": "29cabb51-3511-4d52-9840-39d55d89185e", 
+        "pairs_on_diff_chr": 105256, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1570, 
+        "average_read_length": 125, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2021-12-10T09:07:14.830822-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "e140679f-8e3c-4abe-b935-58649053799d_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "89a3b6a6-86d0-4d80-b895-56594cff2895", 
+    "created_datetime": "2019-04-18T08:17:09.249648-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4229480, 
+  "md5sum": "5ddae5195a9f6ccdb983cc77114db6ad", 
+  "file_id": "958f96aa-1de7-4a1e-8007-5b16bdcf4bbe", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "ALIQUOT159", 
+      "entity_type": "aliquot", 
+      "case_id": "fdd01339-fd45-47e6-9d68-b2ab126d5ee9", 
+      "entity_id": "bcde3cce-eaf9-4cf5-ad19-cb65746c5198"
+    }
+  ], 
+  "file_name": "75f63a7e-2577-471d-a4e9-81d624689025.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "ba0b92d0-0432-4972-acb5-b9a5f97650f4", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.927161699863109, 
+        "total_reads": 90474956, 
+        "access": "controlled", 
+        "file_name": "75f63a7e-2577-471d-a4e9-81d624689025.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.003096712, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "af6d34f1-bc4a-45dc-a83e-a94a9e62a407", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 4899155334, 
+        "created_datetime": "2021-12-10T09:03:24.193235-06:00", 
+        "average_base_quality": 35, 
+        "md5sum": "03c08483e671850e9b9c7a86c557856b", 
+        "updated_datetime": "2023-07-12T10:17:15.931145-05:00", 
+        "file_id": "8794f4a3-67ac-4a5a-8c66-81ce533ff65d", 
+        "pairs_on_diff_chr": 30562, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1711, 
+        "average_read_length": 125, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2021-12-10T09:07:31.789439-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "75f63a7e-2577-471d-a4e9-81d624689025_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "96cdf058-82ef-4d16-ab2d-1e1137c81160", 
+    "created_datetime": "2019-04-18T08:18:07.192181-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4226481, 
+  "md5sum": "1ab9f3837e49de3bc3283100bf4d2970", 
+  "file_id": "d0a6f70f-eb87-4a36-8de8-22a4489544e7", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "ALIQUOT169", 
+      "entity_type": "aliquot", 
+      "case_id": "63f87552-091c-4c27-bce0-a37e6657777f", 
+      "entity_id": "c2bec430-9300-43c2-adf4-c6d7e255c170"
+    }
+  ], 
+  "file_name": "85bde5f2-5dd8-4c47-8947-6390edb52351.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "d8db7c77-7aa0-4157-85b7-b32df10fe468", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9374589142366896, 
+        "total_reads": 85720082, 
+        "access": "controlled", 
+        "file_name": "85bde5f2-5dd8-4c47-8947-6390edb52351.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002954112, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "4df3d73c-7e91-4a14-8eb8-e470d70046b4", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 4529802659, 
+        "created_datetime": "2021-12-10T09:00:59.435500-06:00", 
+        "average_base_quality": 35, 
+        "md5sum": "06c6e9276c1b8fe5b43395bcbc5f66b3", 
+        "updated_datetime": "2023-07-12T10:17:15.931145-05:00", 
+        "file_id": "514ba3ae-3e5d-4b3d-b466-154b63dbcd5d", 
+        "pairs_on_diff_chr": 43793, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1682, 
+        "average_read_length": 125, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2021-12-10T09:06:57.801122-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "85bde5f2-5dd8-4c47-8947-6390edb52351_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "3dd830b7-5543-4937-8e32-b75221e702f4", 
+    "created_datetime": "2019-04-18T08:18:39.464287-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4223936, 
+  "md5sum": "18f774ba17bfbd7e18ad0ff69efd3187", 
+  "file_id": "214cc8b0-ff1a-407f-9f5d-78e33d07eb09", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "ALIQUOT158", 
+      "entity_type": "aliquot", 
+      "case_id": "670dc6a3-d40a-4283-8e99-c847d33b5099", 
+      "entity_id": "9b99882b-4c92-4b4f-9ff6-acea9b14112c"
+    }
+  ], 
+  "file_name": "cfb22850-e76d-4b4d-8089-a1fc99d04f20.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "2db660ce-e3be-4b3b-977c-4b70cc0ed8e4", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9176558592547754, 
+        "total_reads": 101632720, 
+        "access": "controlled", 
+        "file_name": "cfb22850-e76d-4b4d-8089-a1fc99d04f20.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.003084614, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "dfd31469-3792-4a3e-a1a1-9507e4c59b6c", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 5591928337, 
+        "created_datetime": "2021-12-10T09:02:47.045479-06:00", 
+        "average_base_quality": 35, 
+        "md5sum": "064fd0359bbafb02ca02e1c23239824c", 
+        "updated_datetime": "2023-07-12T10:17:15.931145-05:00", 
+        "file_id": "3b48dc79-417f-464e-8327-45563805f280", 
+        "pairs_on_diff_chr": 36049, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1665, 
+        "average_read_length": 125, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2021-12-10T09:07:23.942139-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "cfb22850-e76d-4b4d-8089-a1fc99d04f20_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "0d1aaca2-5ee2-49f0-8732-0fb3677905cd", 
+    "created_datetime": "2019-04-18T08:18:07.192181-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4230300, 
+  "md5sum": "4d8424f7c1294119c8dc9803928852d1", 
+  "file_id": "adee5c84-a648-4bb2-afc4-9520280e4848", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "ALIQUOT206", 
+      "entity_type": "aliquot", 
+      "case_id": "e5cdafdf-d896-47e8-8de1-c27a3eeb4db8", 
+      "entity_id": "bf9aef74-5765-4ac3-972a-e6e98880d292"
+    }
+  ], 
+  "file_name": "1e823575-d2f5-4bed-9c05-f680dafebe8e.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "e280af48-1294-4382-a47f-e9e081ce937a", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.8421574330353844, 
+        "total_reads": 98109650, 
+        "access": "controlled", 
+        "file_name": "1e823575-d2f5-4bed-9c05-f680dafebe8e.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002724965, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "dd5ec020-6a69-4250-b1bf-6edfe96826cc", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 5169328706, 
+        "created_datetime": "2021-12-10T09:02:29.769431-06:00", 
+        "average_base_quality": 34, 
+        "md5sum": "46506b66abfcf554ed9a6ddbbcb611b8", 
+        "updated_datetime": "2023-07-12T10:17:15.931145-05:00", 
+        "file_id": "a14d11b5-2c07-4ffd-99b6-0c83b4067d8d", 
+        "pairs_on_diff_chr": 128921, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1567, 
+        "average_read_length": 125, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2021-12-10T09:07:19.435444-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "1e823575-d2f5-4bed-9c05-f680dafebe8e_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "d4b88df9-0fd8-4d5d-96fb-803ea91e51a9", 
+    "created_datetime": "2019-04-18T08:18:39.464287-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4221930, 
+  "md5sum": "457cb62d0b079c5010036f3117314e55", 
+  "file_id": "6c214ef0-eb21-4056-8e0f-77abbe9f1f58", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "ALIQUOT170", 
+      "entity_type": "aliquot", 
+      "case_id": "ece88485-dae8-4f8e-b922-e2c6f8bffd7c", 
+      "entity_id": "a91f8c51-3811-47af-bf6b-ae3d144145a8"
+    }
+  ], 
+  "file_name": "461c6b55-1708-40b4-bda5-5535a2020e68.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "7f9fdaa3-dcf6-400a-ae8d-6dde42986148", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9294959721243371, 
+        "total_reads": 82017924, 
+        "access": "controlled", 
+        "file_name": "461c6b55-1708-40b4-bda5-5535a2020e68.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002938063, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "5a75eb09-0480-437c-9d0a-7457bfda99dc", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 4307893546, 
+        "created_datetime": "2021-12-10T09:01:19.988676-06:00", 
+        "average_base_quality": 36, 
+        "md5sum": "ef6f27541db70b221145228b38416e82", 
+        "updated_datetime": "2023-07-12T10:17:15.931145-05:00", 
+        "file_id": "b32005cb-9d9f-4522-835d-65c0682bad06", 
+        "pairs_on_diff_chr": 32375, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1709, 
+        "average_read_length": 125, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2021-12-10T09:07:03.286289-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "461c6b55-1708-40b4-bda5-5535a2020e68_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "5a6a605d-2073-405e-8bc5-e7f027990dc0", 
+    "created_datetime": "2019-04-18T08:18:07.192181-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4223400, 
+  "md5sum": "d9faa11b35101dd78ba1f84ad2e2dd69", 
+  "file_id": "a3e497c7-7716-4c65-b1a2-2ef5ecfe26f0", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "ALIQUOT182", 
+      "entity_type": "aliquot", 
+      "case_id": "b6a1561a-97ee-4f64-b417-391ccc08f707", 
+      "entity_id": "f2eb0b94-416f-453f-8aa0-f62953d5edfb"
+    }
+  ], 
+  "file_name": "c1aba62f-f95a-4507-b77c-e91a699780e6.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "f94a1918-06ae-4631-a05c-86ad3b80a534", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9400728913430824, 
+        "total_reads": 105964298, 
+        "access": "controlled", 
+        "file_name": "c1aba62f-f95a-4507-b77c-e91a699780e6.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.0027879, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "af3253bb-d73d-4e0b-ba54-4a3b93c6f23d", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 5437593526, 
+        "created_datetime": "2021-12-10T09:01:21.808309-06:00", 
+        "average_base_quality": 35, 
+        "md5sum": "8e0f4e8067417aa7c6a2e21483e05144", 
+        "updated_datetime": "2023-07-12T10:17:15.931145-05:00", 
+        "file_id": "4772db52-493e-4766-8f1e-33c3807ceff6", 
+        "pairs_on_diff_chr": 46310, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1599, 
+        "average_read_length": 125, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2021-12-10T09:07:04.466782-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "c1aba62f-f95a-4507-b77c-e91a699780e6_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "b0345478-37a3-4f60-883b-38a864b3f480", 
+    "created_datetime": "2019-04-18T08:19:09.623502-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4228855, 
+  "md5sum": "dc921a3b623cbd87f4caf4931f623e94", 
+  "file_id": "c53ea286-0707-40c7-a7ad-2759bf5c7f74", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0254740009", 
+      "entity_type": "aliquot", 
+      "case_id": "ccda57c6-999c-4dce-95f1-1fb84b762f0b", 
+      "entity_id": "f941fff3-eaeb-4ee8-8d62-3d16975a5a5e"
+    }
+  ], 
+  "file_name": "d86c91af-2b3f-44a7-965f-4352428824f2.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "8b078e17-bb20-46d7-accc-a28a0b77fa0e", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9906502960087682, 
+        "total_reads": 194350324, 
+        "access": "controlled", 
+        "file_name": "d86c91af-2b3f-44a7-965f-4352428824f2.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.003004058, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "e8b6c28c-4dcc-4be1-a0d4-3b377231450e", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 8411419719, 
+        "created_datetime": "2022-04-04T16:02:40.718782-05:00", 
+        "average_base_quality": 40, 
+        "md5sum": "5e0671c6711c91976acdd3fc433d8715", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "1a68c238-82cb-4860-9dde-1119a76922a8", 
+        "pairs_on_diff_chr": 34554, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 669, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:32:14.139035-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "d86c91af-2b3f-44a7-965f-4352428824f2_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "75b5b4c8-5c53-4a5d-a448-f50a340dd455", 
+    "created_datetime": "2019-11-19T12:09:24.016799-06:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4236385, 
+  "md5sum": "91db62ab9de98299f847fbb93019ced6", 
+  "file_id": "268e7ac7-2937-467c-87bc-2490787650ff", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0246950009", 
+      "entity_type": "aliquot", 
+      "case_id": "dbab1830-176e-4f3a-a094-1a4301a70a7d", 
+      "entity_id": "d10ad329-7193-48b0-be57-6b6a8c93a4aa"
+    }
+  ], 
+  "file_name": "7b8a9778-899c-4c51-8814-99b8c94e0c5b.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "572e687f-ab8f-450f-9824-63a8fb077f3f", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.931381908143485, 
+        "total_reads": 222046090, 
+        "access": "controlled", 
+        "file_name": "7b8a9778-899c-4c51-8814-99b8c94e0c5b.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002376359, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "0713f612-01c0-45c1-83cb-c96ce949172d", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 11547427393, 
+        "created_datetime": "2022-04-04T15:21:49.535522-05:00", 
+        "average_base_quality": 40, 
+        "md5sum": "c296e6618e1fdb12506a5d841ed93cb2", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "708e847e-6938-4f9f-b75f-c1fc00f96bee", 
+        "pairs_on_diff_chr": 411361, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1129, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:26:51.343073-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "7b8a9778-899c-4c51-8814-99b8c94e0c5b_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "e18f3015-9464-4328-a252-0960158869b7", 
+    "created_datetime": "2019-11-19T12:09:24.016799-06:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4221622, 
+  "md5sum": "4d6644f8f96d50973cf04afed95d3adc", 
+  "file_id": "4f979539-52ab-4233-95f6-d5de02e8bb81", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0347880005", 
+      "entity_type": "aliquot", 
+      "case_id": "f18c9bec-1c23-45f1-a6df-0113f1d851c1", 
+      "entity_id": "067fca45-194a-410e-835a-a0942ead0bc5"
+    }
+  ], 
+  "file_name": "ff02e459-d5eb-4a8e-980b-79cd4d96b29d.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "c86f373d-a440-441c-a254-824ada414215", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "5d8c131bbff59fb0c969217fc1d44e6d1503cd1f", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9666259462844382, 
+        "total_reads": 152223522, 
+        "access": "controlled", 
+        "file_name": "ff02e459-d5eb-4a8e-980b-79cd4d96b29d.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002247683, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "903d50ec-5a58-43e7-964c-59cd98994658", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 7428085529, 
+        "created_datetime": "2022-04-04T15:56:14.115041-05:00", 
+        "average_base_quality": 40, 
+        "md5sum": "11d29d29987b2f94f4bf8358b8bb6116", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "9629a2dd-2a21-4740-a5d5-e231a287a83b", 
+        "pairs_on_diff_chr": 155739, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1316, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2022-01-06T08:27:19.056358-06:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-rnaseq-cwl/blob/5d8c131bbff59fb0c969217fc1d44e6d1503cd1f/rnaseq-star-align/star2pass.rnaseq_harmonization.cwl", 
+    "submitter_id": "ff02e459-d5eb-4a8e-980b-79cd4d96b29d_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "7b31789a-655b-4093-98ec-8e30a0606750", 
+    "created_datetime": "2021-02-03T17:33:21.290701-06:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4197465, 
+  "md5sum": "73f5a2799585e2d260f93c481cf0feec", 
+  "file_id": "69c6fc37-a9b1-4627-b5b7-856ed88ae379", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0174800007", 
+      "entity_type": "aliquot", 
+      "case_id": "da1fdb3c-3031-4072-8ca8-96f1729ac276", 
+      "entity_id": "ef83cc65-3e3f-4092-a4fe-592f1a8c9948"
+    }
+  ], 
+  "file_name": "19d4dcb4-9491-49d5-901f-a0830a99d4f7.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "44110a11-9c43-4d29-9ade-2cd534b0934a", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9922784706079345, 
+        "total_reads": 163995620, 
+        "access": "controlled", 
+        "file_name": "19d4dcb4-9491-49d5-901f-a0830a99d4f7.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002107291, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "d4335b8b-4a46-41b9-aa60-d3061df48494", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 7019982424, 
+        "created_datetime": "2022-01-05T14:18:29.416339-06:00", 
+        "average_base_quality": 40, 
+        "md5sum": "7478472bd2f5b4ad547c08a712351249", 
+        "updated_datetime": "2023-07-12T10:16:48.636202-05:00", 
+        "file_id": "fcadb0b3-5882-42fc-84fa-1ae534b5f55f", 
+        "pairs_on_diff_chr": 17499, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 770, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:12:17.837577-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "19d4dcb4-9491-49d5-901f-a0830a99d4f7_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "2163eb09-74e8-4838-9840-220cda1bffbc", 
+    "created_datetime": "2019-11-19T12:09:24.016799-06:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4229696, 
+  "md5sum": "f6220ed59ebd3b88797a590826120c04", 
+  "file_id": "e3d16a9e-974c-4fca-a4a2-6837493e33e9", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0347910005", 
+      "entity_type": "aliquot", 
+      "case_id": "19024c23-0e65-484b-9735-691d616f304d", 
+      "entity_id": "2b307e3f-f39f-4bad-8227-6ccdc971e105"
+    }
+  ], 
+  "file_name": "c49f1842-78f8-476c-9c3e-800521e71eb6.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "310fd9bc-4124-4e2f-84be-8204f4d023d4", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "5d8c131bbff59fb0c969217fc1d44e6d1503cd1f", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9841930759456379, 
+        "total_reads": 220219126, 
+        "access": "controlled", 
+        "file_name": "c49f1842-78f8-476c-9c3e-800521e71eb6.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002061286, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "2fa9d9a9-3f27-4002-bddd-f68aa91fb283", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 9670052249, 
+        "created_datetime": "2022-04-04T15:22:22.445977-05:00", 
+        "average_base_quality": 40, 
+        "md5sum": "d51e191d781e439fbee8d95d6b2f1f92", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "172bbb8c-f105-46ff-80fe-15f78b102bd6", 
+        "pairs_on_diff_chr": 929971, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 848, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2022-01-06T08:26:11.329342-06:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-rnaseq-cwl/blob/5d8c131bbff59fb0c969217fc1d44e6d1503cd1f/rnaseq-star-align/star2pass.rnaseq_harmonization.cwl", 
+    "submitter_id": "c49f1842-78f8-476c-9c3e-800521e71eb6_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "6a25a971-fc5d-4036-9f1f-9758f48e2a63", 
+    "created_datetime": "2021-02-03T17:33:28.455866-06:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4228558, 
+  "md5sum": "d7ac03e57ef6ed05bc80a365126eedd5", 
+  "file_id": "94b612cd-8682-495c-be3a-64cf21aa5511", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0063990006", 
+      "entity_type": "aliquot", 
+      "case_id": "4a40e29b-aaa0-4de4-949e-e4a5d6295bed", 
+      "entity_id": "34aca5db-215b-4947-a043-6b063cb678ed"
+    }
+  ], 
+  "file_name": "5f288ded-b67d-45f9-bc13-1c901330743f.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "fb3837a6-acf6-421a-addb-2b050615ea60", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9912191728124111, 
+        "total_reads": 246668788, 
+        "access": "controlled", 
+        "file_name": "5f288ded-b67d-45f9-bc13-1c901330743f.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002592704, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "b205ed89-7dda-4eee-b25c-bb6d772aed34", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 11076734966, 
+        "created_datetime": "2022-04-04T15:08:46.196650-05:00", 
+        "average_base_quality": 40, 
+        "md5sum": "941d45c8bbd0b1c965875858015c366a", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "844b9e56-f9d2-4cad-aceb-80901eb74db8", 
+        "pairs_on_diff_chr": 702470, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 854, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:23:29.575587-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "5f288ded-b67d-45f9-bc13-1c901330743f_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "80f45d82-9d1b-44f0-ba20-8d6d572e15e2", 
+    "created_datetime": "2019-03-29T16:05:15.173874-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4242972, 
+  "md5sum": "08e57313f6afc90e3c6df7e658d9c866", 
+  "file_id": "595c3016-8a7f-4b46-99b4-b53a04a7ba6e", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0014060009", 
+      "entity_type": "aliquot", 
+      "case_id": "669caded-109b-422e-9c91-2de87edfd052", 
+      "entity_id": "a1a31e8e-1520-40c8-91c7-15b954dbbcba"
+    }
+  ], 
+  "file_name": "3af9a093-822b-44af-9877-095a2c1cf67a.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "7c9cf7e9-8453-4fcf-8ca6-f374f4e5edc8", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9802652506699098, 
+        "total_reads": 202796698, 
+        "access": "controlled", 
+        "file_name": "3af9a093-822b-44af-9877-095a2c1cf67a.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002452752, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "f3dfdd6f-e58a-415f-b058-11a93061da94", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 10759922678, 
+        "created_datetime": "2022-04-04T16:09:10.574407-05:00", 
+        "average_base_quality": 39, 
+        "md5sum": "11748f12119279bc90cc3c37a71d37e5", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "448ebc6f-984f-4676-a4fe-7590b932a4ab", 
+        "pairs_on_diff_chr": 90730, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 807, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:38:15.173116-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "3af9a093-822b-44af-9877-095a2c1cf67a_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "f8ac7571-0079-4144-ad73-36ab0adcfead", 
+    "created_datetime": "2019-03-29T16:19:53.379590-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4235526, 
+  "md5sum": "21f36a31db0419b7b2f78d71dc5b258a", 
+  "file_id": "14218a20-3ef8-4dda-8575-3358be0f98c5", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0086210009", 
+      "entity_type": "aliquot", 
+      "case_id": "81c1e904-8a47-462c-bd2c-f2ecbb6c1b19", 
+      "entity_id": "783bd6ee-102c-4778-bb1e-b2af80b71dc5"
+    }
+  ], 
+  "file_name": "1d421a09-7f5e-4637-abba-3e71148e45ba.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "79e24745-c00a-4743-bdce-f42c181dc4e5", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9807878946865771, 
+        "total_reads": 196013760, 
+        "access": "controlled", 
+        "file_name": "1d421a09-7f5e-4637-abba-3e71148e45ba.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002133788, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "6223528e-2ec4-44b7-aa1c-c726c78e6626", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 9875410016, 
+        "created_datetime": "2022-04-04T15:15:57.481804-05:00", 
+        "average_base_quality": 40, 
+        "md5sum": "cefbdbde5e9002a57005d2c7ddc69be2", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "8db0a3bd-7aa8-4aea-9fb8-eece18479eae", 
+        "pairs_on_diff_chr": 875371, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 922, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:26:05.002768-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "1d421a09-7f5e-4637-abba-3e71148e45ba_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "0bfbe72e-fb32-4d1b-bc19-8a4564d8a857", 
+    "created_datetime": "2019-03-29T16:14:21.618976-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4233214, 
+  "md5sum": "d6e6afef6b64efb629dbc4845f07f0ec", 
+  "file_id": "d0044f4f-81d4-49df-bb2b-4e57b0d1b859", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0124530009", 
+      "entity_type": "aliquot", 
+      "case_id": "0960f27b-1262-4bbe-a8f8-a2aec454f5c6", 
+      "entity_id": "192b8f8d-71df-4d64-be78-a4b754ac9624"
+    }
+  ], 
+  "file_name": "c82e7794-6b1d-4957-85c9-4ade1856a41f.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "1ca6ba69-86f9-4b5d-97ab-b788065b688d", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9677749347375816, 
+        "total_reads": 204016344, 
+        "access": "controlled", 
+        "file_name": "c82e7794-6b1d-4957-85c9-4ade1856a41f.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002155033, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "19097c95-e727-45d6-bdf0-8dac165e4c05", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 10958566926, 
+        "created_datetime": "2022-04-04T16:11:20.837720-05:00", 
+        "average_base_quality": 40, 
+        "md5sum": "6155857e45489ee07afee3e5bcc67526", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "8c26b9d8-b65a-48fb-a1a5-202964e62410", 
+        "pairs_on_diff_chr": 179614, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 994, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:39:06.034506-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "c82e7794-6b1d-4957-85c9-4ade1856a41f_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "bb1096ce-53fe-4a45-8bca-1be5ee70f365", 
+    "created_datetime": "2019-03-29T16:01:33.278555-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4226882, 
+  "md5sum": "e45ff14ae9a6fb2d22723181e95e0cbc", 
+  "file_id": "b6d851e1-ce1e-4653-89e6-63cd79be6775", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0081390006", 
+      "entity_type": "aliquot", 
+      "case_id": "5f7accb9-d655-45fb-bae0-d8cd02c11285", 
+      "entity_id": "80de0482-2005-4cde-a090-787942b243e0"
+    }
+  ], 
+  "file_name": "27bf0c1e-d087-49fe-8137-c8c733090d3a.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "9f0405b2-3fa7-4a45-b24f-ff99f34f7273", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9828795679820437, 
+        "total_reads": 162278440, 
+        "access": "controlled", 
+        "file_name": "27bf0c1e-d087-49fe-8137-c8c733090d3a.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.00228394, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "0ff7272e-e7e3-4b65-8b32-43c1104682f1", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 8441057751, 
+        "created_datetime": "2022-01-05T14:56:28.046222-06:00", 
+        "average_base_quality": 40, 
+        "md5sum": "15e11f9b9f0a87720cfda55c7044ac7b", 
+        "updated_datetime": "2023-07-12T10:16:48.636202-05:00", 
+        "file_id": "b79f6597-a4be-4a2a-9aa8-86017f4946ad", 
+        "pairs_on_diff_chr": 706097, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1024, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:19:45.543326-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "27bf0c1e-d087-49fe-8137-c8c733090d3a_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "8464fc6d-ef47-4d5c-b8c2-88a69cc2348f", 
+    "created_datetime": "2019-03-29T16:15:11.315695-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4221219, 
+  "md5sum": "d6aa8f37c1418a178a2ec8e2a503ad66", 
+  "file_id": "228c4226-5206-42b8-aa44-2cc817d0a818", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0066020009", 
+      "entity_type": "aliquot", 
+      "case_id": "ed69df53-631b-4c3a-af08-e502cc64129a", 
+      "entity_id": "36e2381a-dba9-4b24-bb5d-ddbec6e2ec74"
+    }
+  ], 
+  "file_name": "100ce9dd-2a28-4632-a88e-152fc2c76692.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "8e5b3aa0-a6df-447b-abf3-9aa41f956052", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9892217786320116, 
+        "total_reads": 179279580, 
+        "access": "controlled", 
+        "file_name": "100ce9dd-2a28-4632-a88e-152fc2c76692.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002097574, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "9e7ee8a6-9925-4fff-95b1-da08f3a2f5ef", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 9594141525, 
+        "created_datetime": "2022-01-05T15:59:36.108816-06:00", 
+        "average_base_quality": 39, 
+        "md5sum": "d66ff41b68e6075614a91c3c0a686b81", 
+        "updated_datetime": "2023-07-12T10:16:48.636202-05:00", 
+        "file_id": "cb97183f-987e-4285-9917-f7a27b3242a4", 
+        "pairs_on_diff_chr": 124846, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1012, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:32:16.752691-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "100ce9dd-2a28-4632-a88e-152fc2c76692_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "e1ece0c0-4fcd-4290-bdea-20ce93c7a7cd", 
+    "created_datetime": "2019-03-29T16:05:15.173874-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4227347, 
+  "md5sum": "80bedc4955e65ac287faa951bc652839", 
+  "file_id": "0d715741-3b90-41df-b6b2-f7ba90a7b546", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0078030009", 
+      "entity_type": "aliquot", 
+      "case_id": "936f72b9-e16d-448b-b6ba-23078dd211b8", 
+      "entity_id": "5f424fd1-0570-4ee5-bd7a-fdd8530c1fa8"
+    }
+  ], 
+  "file_name": "8d29479c-a76f-4b83-9af4-2f501637165f.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "5b13f452-e556-46cc-b778-a8834acc6a9c", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9902704829212365, 
+        "total_reads": 176266508, 
+        "access": "controlled", 
+        "file_name": "8d29479c-a76f-4b83-9af4-2f501637165f.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002302656, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "cb705895-8130-4675-b5aa-5d1b18d126a9", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 8444367367, 
+        "created_datetime": "2022-04-04T15:37:01.518835-05:00", 
+        "average_base_quality": 39, 
+        "md5sum": "fa37595c5a1b99969b40ee0be7af7af6", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "306e0789-ae4b-47f5-a374-94d6a18ee079", 
+        "pairs_on_diff_chr": 711313, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 962, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:35:45.133136-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "8d29479c-a76f-4b83-9af4-2f501637165f_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "6b42867e-5c08-4385-bed3-ee0bfdf29684", 
+    "created_datetime": "2019-03-29T16:10:43.341065-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4239869, 
+  "md5sum": "c67770c886673334104875f6b6055614", 
+  "file_id": "bbb307e1-487b-4a67-9846-8b3e82ac5cde", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0125010009", 
+      "entity_type": "aliquot", 
+      "case_id": "71d68d14-e1ec-4d01-9a9a-2f2a2f8e4297", 
+      "entity_id": "79304fdd-90e8-4ca3-a8be-8e0678db0863"
+    }
+  ], 
+  "file_name": "74d972ea-d6d1-4c53-aa23-02e54031af53.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "3b1c33ac-7060-45bc-912a-b3b6b2ff7b43", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9595853511413875, 
+        "total_reads": 198195264, 
+        "access": "controlled", 
+        "file_name": "74d972ea-d6d1-4c53-aa23-02e54031af53.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002052664, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "9042b5bb-fb12-4bb5-aeb9-018bad7e64c9", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 10959148907, 
+        "created_datetime": "2022-04-04T15:18:38.249994-05:00", 
+        "average_base_quality": 40, 
+        "md5sum": "cb9c1e77c5c3f0c52e7acd68fe79a6a5", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "d2be85f4-03a2-42c9-95a7-afcd229d9ddf", 
+        "pairs_on_diff_chr": 372163, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1051, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:10:38.846473-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "74d972ea-d6d1-4c53-aa23-02e54031af53_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "252ba4df-888f-45e4-8111-8b97e71d4567", 
+    "created_datetime": "2019-03-29T16:14:21.618976-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4218833, 
+  "md5sum": "bbd2507f6bf77ea1aa84530abc71955c", 
+  "file_id": "1d9bd7d6-052b-4358-a021-9d92eaa22b9d", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0064110006", 
+      "entity_type": "aliquot", 
+      "case_id": "3569f880-3672-4b78-b675-c1c2c0a43d1a", 
+      "entity_id": "2bc43f48-0905-4772-8196-4c44362af840"
+    }
+  ], 
+  "file_name": "b2e836bd-b943-474d-8dfb-ae136f78f762.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "011beac8-a3a6-4522-8acd-a23f1a7eda3c", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9930000045718342, 
+        "total_reads": 179796546, 
+        "access": "controlled", 
+        "file_name": "b2e836bd-b943-474d-8dfb-ae136f78f762.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.00248119, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "40e45b32-3942-4464-a80f-ec827cd39d48", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 8365765141, 
+        "created_datetime": "2022-04-04T14:30:38.107078-05:00", 
+        "average_base_quality": 39, 
+        "md5sum": "d9a3dd903584bfc3a607a9c2da848f04", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "bb19aa2d-af49-4925-b0d8-a4e2f4168ebf", 
+        "pairs_on_diff_chr": 695950, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 919, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:12:20.724531-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "b2e836bd-b943-474d-8dfb-ae136f78f762_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "2ec0571e-976d-4e4a-aeaa-461cecc92daf", 
+    "created_datetime": "2019-03-29T16:04:20.492405-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4236397, 
+  "md5sum": "5e2344987fe4be800af240887ec3e969", 
+  "file_id": "173431ac-622b-4acb-83c2-daf26e56f917", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0064570006", 
+      "entity_type": "aliquot", 
+      "case_id": "3c0035cc-7cf7-4319-a5d2-79c79c4fe9f5", 
+      "entity_id": "9778b551-538d-49de-873d-3480ff36d93c"
+    }
+  ], 
+  "file_name": "382c05bd-dcf4-426f-890c-f00b2fc45e72.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "a26bf89e-8163-4d7d-9c01-5e40083420d2", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9909385683102946, 
+        "total_reads": 181680010, 
+        "access": "controlled", 
+        "file_name": "382c05bd-dcf4-426f-890c-f00b2fc45e72.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002405707, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "9621cded-0fdb-4367-90d9-7b4cfe71e7f1", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 8486025625, 
+        "created_datetime": "2022-04-04T14:14:15.684182-05:00", 
+        "average_base_quality": 40, 
+        "md5sum": "3bede5f6063622cd6b1b18aeefb5f1e7", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "9b857ade-e233-41cf-9075-1b03eb78bd0e", 
+        "pairs_on_diff_chr": 869499, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 985, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:32:51.668657-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "382c05bd-dcf4-426f-890c-f00b2fc45e72_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "0be23cf7-acbe-470b-9595-42e1a7b1104a", 
+    "created_datetime": "2019-03-29T16:17:58.324634-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4236898, 
+  "md5sum": "ccdda7ded075ef37c3825e9a312586ba", 
+  "file_id": "8bd9e390-cd33-47dd-8fa6-0eb4077c2c88", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0001750006", 
+      "entity_type": "aliquot", 
+      "case_id": "adeb86f4-17ca-4ab1-b5aa-30ea0f5bdf56", 
+      "entity_id": "c054f27d-d76c-433d-86bf-45d781be2046"
+    }
+  ], 
+  "file_name": "aa274968-d69e-4e77-aae9-fee9c28a1b5b.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "8beb44e9-e6c4-4c48-9e1b-1fb84bf5b175", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9922995522314372, 
+        "total_reads": 179255550, 
+        "access": "controlled", 
+        "file_name": "aa274968-d69e-4e77-aae9-fee9c28a1b5b.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002126952, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "8d9c2dd3-2f1b-499c-917a-77c38fd928f6", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 8957352819, 
+        "created_datetime": "2022-01-05T14:35:10.828609-06:00", 
+        "average_base_quality": 39, 
+        "md5sum": "7ae55470bb0004176d1d2924dd989ed7", 
+        "updated_datetime": "2023-07-12T10:16:48.636202-05:00", 
+        "file_id": "40379d81-a9bf-4007-9473-e4f61e16ffd0", 
+        "pairs_on_diff_chr": 627338, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 910, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:15:33.076244-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "aa274968-d69e-4e77-aae9-fee9c28a1b5b_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "53ba795e-af6a-47e3-aab7-9fafea8a46c2", 
+    "created_datetime": "2019-03-29T16:23:33.838323-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4234467, 
+  "md5sum": "004b15d6f88d8919ab31a4aeef87425c", 
+  "file_id": "21bad3a0-c28c-4322-89ae-f209e498a7c4", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0083290009", 
+      "entity_type": "aliquot", 
+      "case_id": "e002d33a-86c4-4e19-acde-d542096f5fdb", 
+      "entity_id": "bb421dec-3cf1-49b2-8ac4-478dd4812a1a"
+    }
+  ], 
+  "file_name": "03d012ac-20b7-4b78-aba1-d8eb765a4f0e.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "9883907e-f368-4c4e-b7c5-ffd5614976c0", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9902929923509634, 
+        "total_reads": 230444446, 
+        "access": "controlled", 
+        "file_name": "03d012ac-20b7-4b78-aba1-d8eb765a4f0e.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002321913, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "a355c47c-5144-48bb-ac23-2aa74e396656", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 11355970334, 
+        "created_datetime": "2022-04-04T16:10:37.038147-05:00", 
+        "average_base_quality": 39, 
+        "md5sum": "72b9a5a1fed8b9a3172f9e9203172dde", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "015d71b1-0bd1-4a19-a9e6-715d3af57314", 
+        "pairs_on_diff_chr": 140894, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 986, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:38:50.373257-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "03d012ac-20b7-4b78-aba1-d8eb765a4f0e_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "1e13501c-7b93-4b31-b2bf-54d2c0c86b5e", 
+    "created_datetime": "2019-03-29T16:23:33.838323-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4245103, 
+  "md5sum": "9a6fed40c3afd95457ef34a132138905", 
+  "file_id": "7fba2963-9c6f-48ac-ad34-ad7580f4443f", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0108410009", 
+      "entity_type": "aliquot", 
+      "case_id": "f3e8e047-a18b-47a2-8c3b-60b34ebe54f7", 
+      "entity_id": "bea7c68d-6582-42af-a2cc-8943e5c8f07b"
+    }
+  ], 
+  "file_name": "1495d677-f4a4-4e51-bf97-097744053240.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "4529093f-7f5d-4767-b772-6079dc241f80", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9903800456572582, 
+        "total_reads": 219454264, 
+        "access": "controlled", 
+        "file_name": "1495d677-f4a4-4e51-bf97-097744053240.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002543098, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "52568990-6040-4b07-b823-12acc5792f07", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 10071949725, 
+        "created_datetime": "2022-01-05T16:09:39.585711-06:00", 
+        "average_base_quality": 40, 
+        "md5sum": "0e12c743788f027a18cdf6e750420ee7", 
+        "updated_datetime": "2023-07-12T10:16:48.636202-05:00", 
+        "file_id": "79ac452b-2c22-4e9d-95d7-fb67ff5e690d", 
+        "pairs_on_diff_chr": 747989, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 763, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:34:26.125277-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "1495d677-f4a4-4e51-bf97-097744053240_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "458d7e02-1669-4395-9e8c-9f9aa3d6d40e", 
+    "created_datetime": "2019-03-29T16:23:33.838323-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4241426, 
+  "md5sum": "879fa7d252b7e907d8a74eead3f221da", 
+  "file_id": "d31422e4-4b53-409c-9121-b93caa942ce2", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0000270006", 
+      "entity_type": "aliquot", 
+      "case_id": "d0a4a77b-3676-490b-9058-22509098cb27", 
+      "entity_id": "25542831-ec73-47ac-bf88-7ff8da45c341"
+    }
+  ], 
+  "file_name": "b6fa7c32-8223-4504-b2ba-ad9501078c78.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "b4b7d121-be39-49a7-a420-317ec3b2c7a4", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9779427228331813, 
+        "total_reads": 213432554, 
+        "access": "controlled", 
+        "file_name": "b6fa7c32-8223-4504-b2ba-ad9501078c78.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002233589, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "8cf724ea-bf31-4645-9f16-5f87d0fccaad", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 9982605016, 
+        "created_datetime": "2022-04-04T14:11:33.253706-05:00", 
+        "average_base_quality": 40, 
+        "md5sum": "986d14f57362a146f385d443ace2db4b", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "5ab6faef-c481-4d0c-92f9-5944b7dfd039", 
+        "pairs_on_diff_chr": 921060, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 873, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:22:36.916970-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "b6fa7c32-8223-4504-b2ba-ad9501078c78_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "3a9f28f9-a115-41b4-908c-759c65f79e76", 
+    "created_datetime": "2019-03-29T16:03:23.553284-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4241391, 
+  "md5sum": "459e7b0ea9fa1e9e1db21dc3b9c88168", 
+  "file_id": "8c340d2d-0281-4aeb-8dab-7468509431ff", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0094760009", 
+      "entity_type": "aliquot", 
+      "case_id": "28a38be6-215d-42b6-bab1-495e0df755b7", 
+      "entity_id": "6020a21d-600e-483b-81f8-cfee57009e80"
+    }
+  ], 
+  "file_name": "d1136672-6cd9-4690-a7d5-7b7175d32ec4.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "67752122-96f1-420b-9462-73da4b606816", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9483909415197971, 
+        "total_reads": 234241766, 
+        "access": "controlled", 
+        "file_name": "d1136672-6cd9-4690-a7d5-7b7175d32ec4.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002340242, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "d45a8297-a82c-472e-94f1-a8b5f4f126cf", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 12241655876, 
+        "created_datetime": "2022-04-04T14:53:22.440887-05:00", 
+        "average_base_quality": 40, 
+        "md5sum": "cf81ffc8ebfba4afd3dc1b8f34ab087b", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "7851b824-ed1c-4d77-95a1-2b723fbd3cdb", 
+        "pairs_on_diff_chr": 208829, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 725, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:30:38.437090-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "d1136672-6cd9-4690-a7d5-7b7175d32ec4_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "e40f4fe5-59e9-42db-a024-b8cb50f51fa0", 
+    "created_datetime": "2019-03-29T16:10:43.341065-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4242296, 
+  "md5sum": "4510aff46ca431f9ea8feccdf19bb7db", 
+  "file_id": "c5c5938e-f093-4611-8980-0a99207cfd67", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0093880009", 
+      "entity_type": "aliquot", 
+      "case_id": "217a5718-a04e-4225-b362-98d2825b1617", 
+      "entity_id": "978d28a0-2466-42ae-96b7-795b459030f2"
+    }
+  ], 
+  "file_name": "04dfe748-fcaf-498d-b4af-2ee2fcac28e0.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "7edbeb5a-1ac4-4e6b-acd9-a01673478ff2", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9838082901961, 
+        "total_reads": 254864128, 
+        "access": "controlled", 
+        "file_name": "04dfe748-fcaf-498d-b4af-2ee2fcac28e0.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002145497, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "d719972f-15e4-4ee7-844a-6c1c639cdf51", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 11947885517, 
+        "created_datetime": "2022-01-05T14:28:42.517463-06:00", 
+        "average_base_quality": 40, 
+        "md5sum": "28fba244a92a5b5e49eb2fd5f338aea9", 
+        "updated_datetime": "2023-07-12T10:16:48.636202-05:00", 
+        "file_id": "8f139d30-d0d9-4e5c-84d3-803359644369", 
+        "pairs_on_diff_chr": 443458, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1085, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:14:18.708275-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "04dfe748-fcaf-498d-b4af-2ee2fcac28e0_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "f31c2c0b-f82e-4710-823a-02898dd57f42", 
+    "created_datetime": "2019-03-29T16:17:58.324634-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4235183, 
+  "md5sum": "60bc9c45164265499e9e57bf12eca47f", 
+  "file_id": "88216c24-3a0c-4e0c-9fc6-45a4e2ebe7c8", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0126200009", 
+      "entity_type": "aliquot", 
+      "case_id": "e2ec60db-be44-4b4b-a519-6320231f7be9", 
+      "entity_id": "6f2a11df-d210-4ee3-ad1a-41fcfd2b7026"
+    }
+  ], 
+  "file_name": "1290d6b7-80a6-480a-b4de-5bd7633d8cc1.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "28a0b0bf-d468-4402-a286-10054b38e55e", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9926186121610655, 
+        "total_reads": 203215714, 
+        "access": "controlled", 
+        "file_name": "1290d6b7-80a6-480a-b4de-5bd7633d8cc1.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002305188, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "70e7d288-9d4a-4e6f-b66e-0f1829a697d2", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 9127886309, 
+        "created_datetime": "2022-01-05T14:22:00.136527-06:00", 
+        "average_base_quality": 40, 
+        "md5sum": "bdfe7bd49f1e0dfc98cf737658fce75e", 
+        "updated_datetime": "2023-07-12T10:16:48.636202-05:00", 
+        "file_id": "6bce3332-f473-4fc6-b22f-658de4f58e03", 
+        "pairs_on_diff_chr": 316398, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 912, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:12:59.068774-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "1290d6b7-80a6-480a-b4de-5bd7633d8cc1_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "007dcb6d-fa9e-4905-abe5-cf014f5553ea", 
+    "created_datetime": "2019-03-29T16:13:26.240263-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4236923, 
+  "md5sum": "a7c7f488f10d371f70a276482c33a6ff", 
+  "file_id": "4266c29d-084b-41e8-9fd0-5f25f691e545", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0094960008", 
+      "entity_type": "aliquot", 
+      "case_id": "67d29568-8cdf-4b73-a942-9a882dd304a4", 
+      "entity_id": "87a356a4-beb8-4f93-baee-d84614c8416a"
+    }
+  ], 
+  "file_name": "b719127d-1579-4500-ae6c-2f87319fb0cf.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "ef88f0c1-5d19-49e0-a544-796a0b0a8a8a", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9899548523992873, 
+        "total_reads": 177724616, 
+        "access": "controlled", 
+        "file_name": "b719127d-1579-4500-ae6c-2f87319fb0cf.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002379358, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "9d3fe669-f1e2-4737-9c94-e1f9ab667419", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 8063932648, 
+        "created_datetime": "2022-04-04T14:42:48.713124-05:00", 
+        "average_base_quality": 40, 
+        "md5sum": "8acc823938075a45340e5b898c09ebe5", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "499310fd-4883-4546-9233-d357c8a6fcc2", 
+        "pairs_on_diff_chr": 1127446, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 980, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:16:23.494348-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "b719127d-1579-4500-ae6c-2f87319fb0cf_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "d49a5eda-2807-4fa8-899b-46334fb7c573", 
+    "created_datetime": "2019-03-29T16:16:06.541713-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4235703, 
+  "md5sum": "43075e57b1aa5a5cbd9ea8a3680c6f49", 
+  "file_id": "9ed4db45-79c8-4e45-84ba-3029d7eb8216", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0138990009", 
+      "entity_type": "aliquot", 
+      "case_id": "6116ed25-e657-440d-a5b5-24dcd90b0bb5", 
+      "entity_id": "02356a70-ccea-42e5-9607-33e049aa6bcf"
+    }
+  ], 
+  "file_name": "37b1dcdc-151e-4661-a924-5040ed88b284.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "d4202042-ae3b-4438-9c5f-3eeb7249c52d", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "5d8c131bbff59fb0c969217fc1d44e6d1503cd1f", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9916130727887252, 
+        "total_reads": 176758062, 
+        "access": "controlled", 
+        "file_name": "37b1dcdc-151e-4661-a924-5040ed88b284.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002529622, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "07562221-3ab2-412b-bba4-d9ba2efbbf2f", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 8377515544, 
+        "created_datetime": "2022-01-05T16:32:52.252441-06:00", 
+        "average_base_quality": 40, 
+        "md5sum": "7106fe12e6ed3855fe39c6fb6181452b", 
+        "updated_datetime": "2023-07-12T10:16:48.636202-05:00", 
+        "file_id": "9e197a28-a818-42ca-85a5-44f25cda2b31", 
+        "pairs_on_diff_chr": 334257, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 984, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:38:42.099075-06:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-rnaseq-cwl/blob/5d8c131bbff59fb0c969217fc1d44e6d1503cd1f/rnaseq-star-align/star2pass.rnaseq_harmonization.cwl", 
+    "submitter_id": "37b1dcdc-151e-4661-a924-5040ed88b284_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "b26b4e8b-074c-4ba2-b6d3-b519ab33c5b9", 
+    "created_datetime": "2019-03-29T15:58:49.384723-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4237852, 
+  "md5sum": "24834cbfa6c938489c9024be6a50c43f", 
+  "file_id": "29b6798e-d7fb-4514-a46c-b653924800cd", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0077880009", 
+      "entity_type": "aliquot", 
+      "case_id": "dc7add32-3201-4727-a88c-a86c18150970", 
+      "entity_id": "bd34ac2d-c96a-4e80-9ace-a25e8f90698e"
+    }
+  ], 
+  "file_name": "aad40469-8daf-4bbf-a199-c4025461ccae.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "899dbe84-0aab-4f35-bf30-3ac364483902", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9920661181636239, 
+        "total_reads": 158899392, 
+        "access": "controlled", 
+        "file_name": "aad40469-8daf-4bbf-a199-c4025461ccae.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.00215869, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "46d73d34-ad0f-4254-a225-5ef92b64d2da", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 8451230046, 
+        "created_datetime": "2022-01-05T15:16:53.495091-06:00", 
+        "average_base_quality": 39, 
+        "md5sum": "4afb98fa26e6ef77f5133443af6d9c71", 
+        "updated_datetime": "2023-07-12T10:16:48.636202-05:00", 
+        "file_id": "fc2ab034-a761-40eb-a567-e48c08f6716c", 
+        "pairs_on_diff_chr": 86120, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1082, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:23:32.379844-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "aad40469-8daf-4bbf-a199-c4025461ccae_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "e6df2878-d07e-41d8-89b8-b20fe524c8dc", 
+    "created_datetime": "2019-03-29T16:23:33.838323-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4225105, 
+  "md5sum": "3a68bcd08651284a6bd41c2dfe1abcdc", 
+  "file_id": "ece6e66f-9f34-42ef-a616-2cfdf5fe40c1", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0186050010", 
+      "entity_type": "aliquot", 
+      "case_id": "0576d76b-d37c-4df6-9cdd-6397a900c282", 
+      "entity_id": "554dc1b3-932d-401b-81ae-a41ff31480ad"
+    }
+  ], 
+  "file_name": "fa404154-7ff0-41f6-9ce3-81412c8578b1.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "7449e1c3-3f50-4467-a7d0-b1c3b49d619f", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9901509055905328, 
+        "total_reads": 142939436, 
+        "access": "controlled", 
+        "file_name": "fa404154-7ff0-41f6-9ce3-81412c8578b1.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.003010411, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "84e63d6d-cd2b-4254-becb-1a61620ebf55", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 7141937358, 
+        "created_datetime": "2022-04-04T15:44:43.184895-05:00", 
+        "average_base_quality": 39, 
+        "md5sum": "b83958275cec54a447f640cafdf976a7", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "29aa6471-1d8e-4a84-9d80-9a774761d1a9", 
+        "pairs_on_diff_chr": 27315, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 698, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:10:30.659987-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "fa404154-7ff0-41f6-9ce3-81412c8578b1_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "6e6cf299-9a92-44ba-bb09-36cad97f6673", 
+    "created_datetime": "2019-11-19T12:09:00.477068-06:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4224365, 
+  "md5sum": "709060235756eefea830105c506e776e", 
+  "file_id": "48ce8b4f-6285-4dc7-9956-2ccc4af64924", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0162670010", 
+      "entity_type": "aliquot", 
+      "case_id": "12126fde-c904-4b3b-81b4-083824d7a0d4", 
+      "entity_id": "18ba3c36-065d-489b-b67f-19bcf52da9be"
+    }
+  ], 
+  "file_name": "550c8c20-7db8-4611-a353-2ee4a395c27d.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "45003059-2510-491b-ba9c-e1dc1a33f5a2", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9911403583784455, 
+        "total_reads": 208105596, 
+        "access": "controlled", 
+        "file_name": "550c8c20-7db8-4611-a353-2ee4a395c27d.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002783063, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "e1816987-bd99-4090-9b20-00ee3a5f6fa1", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 10123471423, 
+        "created_datetime": "2022-04-04T15:20:00.888911-05:00", 
+        "average_base_quality": 39, 
+        "md5sum": "f2bcec8c98eeb71a8118ede073d02a71", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "8cc2dd3e-b5eb-4a81-bfa3-bf11f7437c1e", 
+        "pairs_on_diff_chr": 39343, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 896, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:26:47.472194-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "550c8c20-7db8-4611-a353-2ee4a395c27d_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "4ea248ad-99fd-49b4-b8e0-9725ba8a79c4", 
+    "created_datetime": "2019-11-19T12:09:00.477068-06:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4234296, 
+  "md5sum": "0a78d4498f8be802b8790bb55201ad41", 
+  "file_id": "66e7f588-b6b7-4696-bee5-00423c725239", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0221490010", 
+      "entity_type": "aliquot", 
+      "case_id": "4403f02b-7f2b-4c80-9feb-69f8790a261f", 
+      "entity_id": "094aadcf-5abf-48d8-aad6-533cd9296b3d"
+    }
+  ], 
+  "file_name": "ace2ab70-8db9-409f-a507-42d46ce9613b.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "e2efd147-b54a-410b-831d-1f9289e0141b", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "5d8c131bbff59fb0c969217fc1d44e6d1503cd1f", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9922482204145961, 
+        "total_reads": 184256400, 
+        "access": "controlled", 
+        "file_name": "ace2ab70-8db9-409f-a507-42d46ce9613b.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.003249416, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "5dba69da-ee1d-4628-a5ff-7d674e4249a4", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 8703626542, 
+        "created_datetime": "2022-04-04T15:24:37.529724-05:00", 
+        "average_base_quality": 39, 
+        "md5sum": "794e99f424e5661f7515c524fff13e10", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "88b1081e-3768-4e49-af2c-636230c7cb69", 
+        "pairs_on_diff_chr": 36883, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 726, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:18:01.226341-06:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-rnaseq-cwl/blob/5d8c131bbff59fb0c969217fc1d44e6d1503cd1f/rnaseq-star-align/star2pass.rnaseq_harmonization.cwl", 
+    "submitter_id": "ace2ab70-8db9-409f-a507-42d46ce9613b_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "6b1faacd-c441-4104-b386-a41654f6b4a7", 
+    "created_datetime": "2019-11-19T12:09:00.477068-06:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4231691, 
+  "md5sum": "5622c30bb571352992a981a19b0aaa48", 
+  "file_id": "c81a2884-bd34-4b64-af20-0980034b7a6a", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0207990010", 
+      "entity_type": "aliquot", 
+      "case_id": "6e8176ee-74af-4682-9700-e1b2af4f1213", 
+      "entity_id": "3dafe0ca-6f6f-42c3-b9c1-ff9f1fde677f"
+    }
+  ], 
+  "file_name": "28d06754-1437-4388-bee4-30d44dfbf246.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "ff8eb59d-b2ab-4228-bf3f-c115072ca171", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9923170013807736, 
+        "total_reads": 209479668, 
+        "access": "controlled", 
+        "file_name": "28d06754-1437-4388-bee4-30d44dfbf246.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.003515259, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "f061f5f5-86e3-483e-94ee-ad562dab36a8", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 10142194346, 
+        "created_datetime": "2022-04-04T15:21:35.484693-05:00", 
+        "average_base_quality": 39, 
+        "md5sum": "91fadb6aaa7b9f0abcd45ac810d6131f", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "0fca3ff8-76b6-4a80-ac71-e8ae33196cb0", 
+        "pairs_on_diff_chr": 48272, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 855, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:26:44.855091-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "28d06754-1437-4388-bee4-30d44dfbf246_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "1ae7217a-f9d7-4c93-9963-d983199fd8c3", 
+    "created_datetime": "2019-11-19T12:09:00.477068-06:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4238855, 
+  "md5sum": "1fc9b745f104b406197cdacba9c0d3f5", 
+  "file_id": "51d36dd2-4824-481b-ba7f-e809b5c1e465", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0247050008", 
+      "entity_type": "aliquot", 
+      "case_id": "6f235976-c04a-4a40-be28-8ed9dab93365", 
+      "entity_id": "191d4059-d2f9-4667-af41-b657add5f0e2"
+    }
+  ], 
+  "file_name": "489e748d-89a5-4e86-8324-f4e190d9465d.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "b10f3cb7-f3be-4bb2-b955-271619e05719", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9852333678319212, 
+        "total_reads": 191335368, 
+        "access": "controlled", 
+        "file_name": "489e748d-89a5-4e86-8324-f4e190d9465d.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002453489, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "7a93f055-bb12-4b86-bac9-74f1dc70f191", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 8989527794, 
+        "created_datetime": "2022-04-04T14:12:05.920089-05:00", 
+        "average_base_quality": 39, 
+        "md5sum": "84c3021d65964eb10f087d59301ef18e", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "ae59050d-76e0-4c42-a4ef-8a8871ac76df", 
+        "pairs_on_diff_chr": 27177, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 949, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:36:01.074542-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "489e748d-89a5-4e86-8324-f4e190d9465d_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "bc631e34-477a-4087-bcac-104aaf01a02b", 
+    "created_datetime": "2019-11-19T12:09:00.477068-06:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4224309, 
+  "md5sum": "9c03d73b8999e7cd797839f0b21fd0bb", 
+  "file_id": "6cc1ec94-2b9e-44e1-a8f2-95cde672dffc", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0347790005", 
+      "entity_type": "aliquot", 
+      "case_id": "39e5a08f-a9bc-4d5a-b51f-1179c42e8ffe", 
+      "entity_id": "0f6855cd-e3d3-4fe1-912a-9369c5df6343"
+    }
+  ], 
+  "file_name": "164118aa-fd54-4a7c-a86b-40bb1958e634.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "ca313bd8-78f6-4ba0-89ac-1458b84647b0", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "5d8c131bbff59fb0c969217fc1d44e6d1503cd1f", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9839728547111722, 
+        "total_reads": 231116642, 
+        "access": "controlled", 
+        "file_name": "164118aa-fd54-4a7c-a86b-40bb1958e634.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002397732, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "b2aebfdd-f634-4d64-944d-471ab738b0e0", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 10283639041, 
+        "created_datetime": "2022-04-04T15:16:12.465920-05:00", 
+        "average_base_quality": 40, 
+        "md5sum": "04ea389f63a0a0ba1c88ca0f5c02adfc", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "611abacc-4edf-407e-994a-d80476eb9e3a", 
+        "pairs_on_diff_chr": 424705, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1101, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2022-01-06T08:26:03.844200-06:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-rnaseq-cwl/blob/5d8c131bbff59fb0c969217fc1d44e6d1503cd1f/rnaseq-star-align/star2pass.rnaseq_harmonization.cwl", 
+    "submitter_id": "164118aa-fd54-4a7c-a86b-40bb1958e634_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "75ff86eb-27f5-4973-b846-a77750248203", 
+    "created_datetime": "2021-02-03T17:33:17.607147-06:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4224201, 
+  "md5sum": "f193041511e5e4665e439b233de0f568", 
+  "file_id": "f5d905ef-0363-492e-bf10-c5d51a801139", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0125160010", 
+      "entity_type": "aliquot", 
+      "case_id": "3bba88bf-3a0c-4788-940f-5407b9e86971", 
+      "entity_id": "eaacb831-eafb-485b-a1ae-1c7acd602af0"
+    }
+  ], 
+  "file_name": "04a300fe-ee75-4664-bc13-df3d56499993.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "b5fb3941-0b17-4ca8-8d14-9ba790f3a28d", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9919230157278683, 
+        "total_reads": 222051070, 
+        "access": "controlled", 
+        "file_name": "04a300fe-ee75-4664-bc13-df3d56499993.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.003412252, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "8fed59e0-29c2-4870-8c4f-94a71fb111d1", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 10527188458, 
+        "created_datetime": "2022-01-05T14:40:29.710652-06:00", 
+        "average_base_quality": 39, 
+        "md5sum": "102dcfdbf9a42267b09613808bc81361", 
+        "updated_datetime": "2023-07-12T10:16:48.636202-05:00", 
+        "file_id": "f28ffe33-c1aa-4562-bbb8-28d58e2ea85a", 
+        "pairs_on_diff_chr": 58122, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 871, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:16:34.242822-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "04a300fe-ee75-4664-bc13-df3d56499993_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "116d5466-d48c-4a85-9a54-2276ef5b6cca", 
+    "created_datetime": "2019-11-19T12:09:24.016799-06:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4242102, 
+  "md5sum": "04ebe783fad5541dbd60bfd6fec9ec0e", 
+  "file_id": "6548430a-8a90-4c04-841f-945502be3e5e", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0124630009", 
+      "entity_type": "aliquot", 
+      "case_id": "a49c8868-66dd-404d-94c5-2fe4e59fbab5", 
+      "entity_id": "a77b73a5-927a-4f15-b6b7-5e443236873d"
+    }
+  ], 
+  "file_name": "ef40d986-40dd-4116-bf7d-020ebb4d70fe.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "2d330d57-3deb-4890-ae0e-c1efee884b27", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9911078694790069, 
+        "total_reads": 148042024, 
+        "access": "controlled", 
+        "file_name": "ef40d986-40dd-4116-bf7d-020ebb4d70fe.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002435796, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "78c9c11a-411c-40a8-8425-5e14fdc6c392", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 7296145201, 
+        "created_datetime": "2022-04-04T16:11:06.870188-05:00", 
+        "average_base_quality": 39, 
+        "md5sum": "f9a57cdbd936d2f3aa5969eaf6b39eb6", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "8d46ee65-07dc-46a4-b2fb-708cd43b13f3", 
+        "pairs_on_diff_chr": 700239, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 814, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:38:56.858725-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "ef40d986-40dd-4116-bf7d-020ebb4d70fe_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "0faffd50-7c0d-4f61-98e8-a54fb869327d", 
+    "created_datetime": "2019-03-29T16:20:48.570365-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4226369, 
+  "md5sum": "0da5e7376131ceebe9124209854e8594", 
+  "file_id": "eb1bbe4f-8523-4014-b5ad-2787c6521c83", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0124430008", 
+      "entity_type": "aliquot", 
+      "case_id": "fcea94a8-32f5-4021-8d27-b4d03e8bb3f7", 
+      "entity_id": "6020dd97-e5da-4d02-87f5-bee7f09de2db"
+    }
+  ], 
+  "file_name": "0202b658-d94d-42a1-8e55-8e7379f589fd.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "f6ff2de2-e362-4a58-aae5-92e3099acd75", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9868740513749042, 
+        "total_reads": 202170226, 
+        "access": "controlled", 
+        "file_name": "0202b658-d94d-42a1-8e55-8e7379f589fd.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002302263, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "c08fc6a7-0dbc-4e30-a775-850e168d5f8c", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 9543308198, 
+        "created_datetime": "2022-04-04T14:36:49.515317-05:00", 
+        "average_base_quality": 40, 
+        "md5sum": "b2b6733ecc74480142bd3648f5bedce5", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "7f2da68c-f986-46f5-9c89-d435bae29878", 
+        "pairs_on_diff_chr": 668182, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 974, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:16:12.340728-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "0202b658-d94d-42a1-8e55-8e7379f589fd_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "69fed256-a010-4c26-9082-4b8fa237d0bd", 
+    "created_datetime": "2019-03-29T16:11:34.186611-05:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4241288, 
+  "md5sum": "c4c658ced8082fcb620f7bf16e172c15", 
+  "file_id": "68547e21-cdb1-4a30-9b40-9f5d6dd87d8e", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0347760005", 
+      "entity_type": "aliquot", 
+      "case_id": "2cf8d6ab-4bd3-4722-97f3-32fa1b2f053e", 
+      "entity_id": "13def871-debb-4d64-b7f8-c0701a6e690d"
+    }
+  ], 
+  "file_name": "2b7911ee-4714-4669-8c3a-7cf3a6c153dc.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "4f6ae50f-6e7b-487a-8d3f-4c9dc2eb091e", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "5d8c131bbff59fb0c969217fc1d44e6d1503cd1f", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9750245403625662, 
+        "total_reads": 230245172, 
+        "access": "controlled", 
+        "file_name": "2b7911ee-4714-4669-8c3a-7cf3a6c153dc.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002032155, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "dfe3bdae-f8c3-4448-9152-2e4b3b334592", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 9498612665, 
+        "created_datetime": "2022-04-04T15:22:24.688393-05:00", 
+        "average_base_quality": 40, 
+        "md5sum": "204a166fec8c019916e24e574a4cc2e4", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "f465ba1c-3234-48e7-91fd-fc11a79416d2", 
+        "pairs_on_diff_chr": 389619, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1094, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2022-01-06T08:27:26.815716-06:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-rnaseq-cwl/blob/5d8c131bbff59fb0c969217fc1d44e6d1503cd1f/rnaseq-star-align/star2pass.rnaseq_harmonization.cwl", 
+    "submitter_id": "2b7911ee-4714-4669-8c3a-7cf3a6c153dc_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "f5309076-6f71-4048-a50b-f6b7a0c3d3f6", 
+    "created_datetime": "2021-02-03T17:33:24.748189-06:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4212188, 
+  "md5sum": "6b7a9cc0cd21e230ed00c9c3493ffafc", 
+  "file_id": "8802a092-5878-4805-afcc-f7c00cf723e1", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0221250007", 
+      "entity_type": "aliquot", 
+      "case_id": "4a6039f3-ac9f-4034-a91f-ee90bee63f27", 
+      "entity_id": "0697a12e-c985-4510-8bc2-7438e4252138"
+    }
+  ], 
+  "file_name": "1faa7190-7787-4b8e-ac42-28ae65cd346d.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "18a18587-2799-47fc-a7a7-f8918f9a89d3", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "5d8c131bbff59fb0c969217fc1d44e6d1503cd1f", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9918788144508313, 
+        "total_reads": 207363074, 
+        "access": "controlled", 
+        "file_name": "1faa7190-7787-4b8e-ac42-28ae65cd346d.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.003471444, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "dea89bf3-80ef-46ce-a7fe-b97e342820bd", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 10049068458, 
+        "created_datetime": "2022-04-04T16:08:50.111816-05:00", 
+        "average_base_quality": 39, 
+        "md5sum": "27c2562cff10916cb6d907bcd34cc60a", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "42a4b1f3-006d-42e9-986f-f4d9c931021b", 
+        "pairs_on_diff_chr": 39365, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 897, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:38:10.305750-06:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-rnaseq-cwl/blob/5d8c131bbff59fb0c969217fc1d44e6d1503cd1f/rnaseq-star-align/star2pass.rnaseq_harmonization.cwl", 
+    "submitter_id": "1faa7190-7787-4b8e-ac42-28ae65cd346d_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "87edbcb3-26be-48a0-a1e6-31e40f354dff", 
+    "created_datetime": "2019-11-19T12:09:00.477068-06:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4235061, 
+  "md5sum": "483ca3f83ed398e6f0444e0b4afd0987", 
+  "file_id": "98052fb6-cda7-4b48-93c0-875500007046", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0347820005", 
+      "entity_type": "aliquot", 
+      "case_id": "75893e8d-5e50-4c19-82c2-2f2c208c216b", 
+      "entity_id": "a35c2959-10d7-47fa-b6b7-1c08cbe75231"
+    }
+  ], 
+  "file_name": "a935b4c0-dfcf-45fc-9c4e-efb9022c8eee.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "3542420a-6a0b-4443-a56f-a2874a9dbfc2", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9735125903119779, 
+        "total_reads": 163019074, 
+        "access": "controlled", 
+        "file_name": "a935b4c0-dfcf-45fc-9c4e-efb9022c8eee.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002393603, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "41dd65c7-8f45-4234-b655-72af786b0a86", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 7964760572, 
+        "created_datetime": "2022-04-04T16:07:04.015384-05:00", 
+        "average_base_quality": 40, 
+        "md5sum": "e00eb05264bc097015b4454743afa272", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "225b0e81-88c7-4d84-8459-bd3b0dbc76be", 
+        "pairs_on_diff_chr": 207298, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1232, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2022-01-06T08:37:21.858711-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "a935b4c0-dfcf-45fc-9c4e-efb9022c8eee_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "cd237cca-dd43-4bff-9d30-e5abdb419caa", 
+    "created_datetime": "2021-02-03T17:33:39.613700-06:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4202575, 
+  "md5sum": "bf5afe41771daa0249b5a96d9fd5ee80", 
+  "file_id": "06b7cc3e-1b92-4615-90d2-70a2cd0be04d", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0355180006", 
+      "entity_type": "aliquot", 
+      "case_id": "85e4b395-dde7-49c4-92c3-47d168cfb390", 
+      "entity_id": "9919bd47-712f-4559-928e-916125689533"
+    }
+  ], 
+  "file_name": "c639e759-ca72-4522-94a4-9dc59acf120f.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "55531bf1-0c70-46dc-a927-63b59ecb781b", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9807463221844136, 
+        "total_reads": 207664844, 
+        "access": "controlled", 
+        "file_name": "c639e759-ca72-4522-94a4-9dc59acf120f.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002476736, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "c6c568ec-1846-407d-bf4a-8d0c1e1ee0f8", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 8451061261, 
+        "created_datetime": "2022-04-04T15:55:58.969863-05:00", 
+        "average_base_quality": 40, 
+        "md5sum": "3ae30279f03a8b9ce431bc315d10fb74", 
+        "updated_datetime": "2023-07-12T10:32:23.446933-05:00", 
+        "file_id": "f9812395-0b8c-488d-9fa2-60581c850d4a", 
+        "pairs_on_diff_chr": 1384432, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 840, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2022-01-06T08:27:16.508460-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "c639e759-ca72-4522-94a4-9dc59acf120f_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "f5226f67-ecc6-4f86-bf70-e3c04022e0cc", 
+    "created_datetime": "2021-02-03T17:33:35.700479-06:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4241015, 
+  "md5sum": "257102a9efcf625b014df88db73aa0b6", 
+  "file_id": "3f0211a3-0d3f-4f39-8144-e812cd28aed8", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0166780007", 
+      "entity_type": "aliquot", 
+      "case_id": "48fc4c94-cdc4-467b-b4e9-3646c7f01b4f", 
+      "entity_id": "11925c58-8d29-4a1c-aafe-8a676cb3dcdb"
+    }
+  ], 
+  "file_name": "76031eae-6009-4c28-ab35-5696948c3e3b.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "fbfbbd4c-7839-47d9-81c4-2213d9736e27", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "5d8c131bbff59fb0c969217fc1d44e6d1503cd1f", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9839779416687464, 
+        "total_reads": 159284216, 
+        "access": "controlled", 
+        "file_name": "76031eae-6009-4c28-ab35-5696948c3e3b.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002861543, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "a80f2499-7e14-4ea6-8e39-94e57aa283b1", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 8255377556, 
+        "created_datetime": "2022-04-04T15:13:14.380027-05:00", 
+        "average_base_quality": 39, 
+        "md5sum": "267116a7ad1a855f55e8b15bff27b5d9", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "a25acbb9-b087-4b7c-bc24-9ecbc2b86ff7", 
+        "pairs_on_diff_chr": 21836, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1031, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:24:58.815266-06:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-rnaseq-cwl/blob/5d8c131bbff59fb0c969217fc1d44e6d1503cd1f/rnaseq-star-align/star2pass.rnaseq_harmonization.cwl", 
+    "submitter_id": "76031eae-6009-4c28-ab35-5696948c3e3b_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "b11810fd-9871-4cdf-8a2d-ada6a52ea1cb", 
+    "created_datetime": "2019-11-19T12:09:00.477068-06:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4205941, 
+  "md5sum": "3326da78cd866cf5803e7425dbe6848f", 
+  "file_id": "d3655083-8a8b-4f02-a709-6c200884f7f6", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0241510007", 
+      "entity_type": "aliquot", 
+      "case_id": "5dc8c8fa-66ad-4e56-aace-768f064e3182", 
+      "entity_id": "06f55666-c6cf-425e-9c1d-0ed980316a31"
+    }
+  ], 
+  "file_name": "344f1e89-25fb-4f99-b158-b37ce10f7aa0.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "90668611-5430-445d-b0e6-ad6eac98209f", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "5d8c131bbff59fb0c969217fc1d44e6d1503cd1f", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9864818843766976, 
+        "total_reads": 165400050, 
+        "access": "controlled", 
+        "file_name": "344f1e89-25fb-4f99-b158-b37ce10f7aa0.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.003018019, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "d0868d1d-50e2-4564-be96-2b8c4f3860af", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 7410446604, 
+        "created_datetime": "2022-04-04T16:11:30.239056-05:00", 
+        "average_base_quality": 40, 
+        "md5sum": "d6254c766440516459948c0a48cf199f", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "a2c17e0a-a517-47e3-980a-d0775aca0217", 
+        "pairs_on_diff_chr": 26358, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 774, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:39:08.589538-06:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-rnaseq-cwl/blob/5d8c131bbff59fb0c969217fc1d44e6d1503cd1f/rnaseq-star-align/star2pass.rnaseq_harmonization.cwl", 
+    "submitter_id": "344f1e89-25fb-4f99-b158-b37ce10f7aa0_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "8fa170b5-5a75-4ce2-987c-453776839da2", 
+    "created_datetime": "2019-11-19T12:09:00.477068-06:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4228110, 
+  "md5sum": "a6a469abe6c01ace3742caa1a73345d9", 
+  "file_id": "d74385ab-4350-4334-8860-da6a14325ea7", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0236360010", 
+      "entity_type": "aliquot", 
+      "case_id": "20843547-185c-4067-b314-698cadf7aea8", 
+      "entity_id": "06fe4c40-1194-445e-9147-bebb2f9e757b"
+    }
+  ], 
+  "file_name": "805c05cf-3170-45cf-9cc1-7672cd281e01.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "35258bcc-d673-44b0-a6ee-2f1e71307e4e", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "5d8c131bbff59fb0c969217fc1d44e6d1503cd1f", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.985042224108855, 
+        "total_reads": 166127840, 
+        "access": "controlled", 
+        "file_name": "805c05cf-3170-45cf-9cc1-7672cd281e01.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002589541, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "ddb3b1cb-ef0a-4f3c-905b-4cfa1263cca9", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 8410414316, 
+        "created_datetime": "2022-04-04T15:02:12.293303-05:00", 
+        "average_base_quality": 39, 
+        "md5sum": "3779f4f4155e3195e2c7612e1bdddb0a", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "400a7f1b-ded3-42ca-ad20-1acca6f14fbd", 
+        "pairs_on_diff_chr": 25937, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1019, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:20:31.524983-06:00", 
+    "workflow_link": "https://github.com/NCI-GDC/gdc-rnaseq-cwl/blob/5d8c131bbff59fb0c969217fc1d44e6d1503cd1f/rnaseq-star-align/star2pass.rnaseq_harmonization.cwl", 
+    "submitter_id": "805c05cf-3170-45cf-9cc1-7672cd281e01_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "c1a666e9-6ae5-4ea8-810e-9e5bc8e6e264", 
+    "created_datetime": "2019-11-19T12:09:00.477068-06:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4205747, 
+  "md5sum": "0093e1d09882277632f4395766875475", 
+  "file_id": "6d6eb1d6-beb5-42d0-9382-77bb5deb1c01", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0197440010", 
+      "entity_type": "aliquot", 
+      "case_id": "63e31d69-8193-483e-b87d-7b89614e0248", 
+      "entity_id": "7775143e-2d32-4967-9eb0-81229b088238"
+    }
+  ], 
+  "file_name": "cf5ad770-ab17-407f-99c9-5c9483847a15.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "a5362afb-5261-41f4-a866-1d03b69ab289", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9933987425195647, 
+        "total_reads": 188032508, 
+        "access": "controlled", 
+        "file_name": "cf5ad770-ab17-407f-99c9-5c9483847a15.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002395849, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "32d581ea-63d0-4f47-9029-a1bc91669616", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 7721879689, 
+        "created_datetime": "2022-04-04T14:20:47.602122-05:00", 
+        "average_base_quality": 40, 
+        "md5sum": "1f2f82c442468f2534d86f3f34723000", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "2805f649-a644-40f8-8338-4152e87ac186", 
+        "pairs_on_diff_chr": 28058, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 712, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:29:00.467822-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "cf5ad770-ab17-407f-99c9-5c9483847a15_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "da6624ac-6409-468b-ba62-c8173d070d4b", 
+    "created_datetime": "2019-11-19T12:09:00.477068-06:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4233091, 
+  "md5sum": "514dff7b3e2dae0806629b6801f202b9", 
+  "file_id": "60a6c48e-245a-428b-b925-51a1901e419b", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0347850005", 
+      "entity_type": "aliquot", 
+      "case_id": "818a0a41-43a3-4d60-a6cc-79a025752f7a", 
+      "entity_id": "820232b4-4716-4218-9d1f-35caf1944a77"
+    }
+  ], 
+  "file_name": "1cc0c765-652d-4fb9-be28-2d46e04db917.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "b71a6969-f115-4abe-afa6-87dd3d353922", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9785017027064712, 
+        "total_reads": 219428308, 
+        "access": "controlled", 
+        "file_name": "1cc0c765-652d-4fb9-be28-2d46e04db917.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002336076, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "d041719c-f9be-4a27-b16c-1e4035a2c9bb", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 9866835080, 
+        "created_datetime": "2022-04-04T15:20:54.778214-05:00", 
+        "average_base_quality": 40, 
+        "md5sum": "d3a4af107c34ca26100b93812b2a7ef0", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "ea3f309c-9a48-4e2a-9f23-45aafff8f38b", 
+        "pairs_on_diff_chr": 232746, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 1289, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "updated_datetime": "2022-01-06T08:26:52.684876-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "1cc0c765-652d-4fb9-be28-2d46e04db917_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "ae31f927-b81c-4efe-97a7-f17aa6f07f0b", 
+    "created_datetime": "2021-02-03T17:33:32.045773-06:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4215625, 
+  "md5sum": "1df26afef2b0f427f5fb7a87c7bf4c13", 
+  "file_id": "8314a8e8-984b-4d1c-b1b9-1cdf0c7cb27a", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+},{
+  "data_format": "TSV", 
+  "access": "open", 
+  "associated_entities": [
+    {
+      "entity_submitter_id": "CPT0246220010", 
+      "entity_type": "aliquot", 
+      "case_id": "8df9a63c-5d21-45d7-929f-4b52b6222f2d", 
+      "entity_id": "4a20de06-79ec-4920-92b6-1178541a7e66"
+    }
+  ], 
+  "file_name": "f7a96787-1062-42a9-9339-36e2836000d0.rna_seq.augmented_star_gene_counts.tsv", 
+  "submitter_id": "d256e87b-ce0d-4071-9556-97a82bd744c1", 
+  "data_category": "Transcriptome Profiling", 
+  "analysis": {
+    "workflow_version": "122a0dd1445b2664b1b40b7df7b0e2240183d712", 
+    "input_files": [
+      {
+        "data_format": "BAM", 
+        "proportion_reads_mapped": 0.9862509506550515, 
+        "total_reads": 130349594, 
+        "access": "controlled", 
+        "file_name": "f7a96787-1062-42a9-9339-36e2836000d0.rna_seq.genomic.gdc_realn.bam", 
+        "wgs_coverage": "Not Applicable", 
+        "proportion_base_mismatch": 0.002764163, 
+        "proportion_reads_duplicated": 0, 
+        "submitter_id": "998de3c5-6236-4b6f-b951-91fa4047bf30", 
+        "data_category": "Sequencing Reads", 
+        "platform": "Illumina", 
+        "file_size": 6120920674, 
+        "created_datetime": "2022-04-04T16:08:18.140305-05:00", 
+        "average_base_quality": 40, 
+        "md5sum": "6ad7935c8c6bca96c4b24bbb1a6f5ce9", 
+        "updated_datetime": "2023-07-12T10:35:06.426786-05:00", 
+        "file_id": "35c76e83-8cd6-4063-ab84-62a887a3197f", 
+        "pairs_on_diff_chr": 18399, 
+        "data_type": "Aligned Reads", 
+        "average_insert_size": 870, 
+        "average_read_length": 75, 
+        "state": "released", 
+        "experimental_strategy": "RNA-Seq"
+      }
+    ], 
+    "workflow_start_datetime": null, 
+    "workflow_end_datetime": null, 
+    "updated_datetime": "2022-01-06T08:38:01.325364-06:00", 
+    "workflow_link": "quay.io/ncigdc", 
+    "submitter_id": "f7a96787-1062-42a9-9339-36e2836000d0_star_-_counts", 
+    "state": "released", 
+    "workflow_type": "STAR - Counts", 
+    "analysis_id": "0a130f25-ba89-41e5-9b6f-2b2c974813ce", 
+    "created_datetime": "2019-11-19T12:09:00.477068-06:00"
+  }, 
+  "platform": "Illumina", 
+  "file_size": 4208366, 
+  "md5sum": "597e65dd32d381c85fcf604706ff29e0", 
+  "file_id": "b01c74d4-478f-4a8a-9521-3f207a81f0bf", 
+  "data_type": "Gene Expression Quantification", 
+  "state": "released", 
+  "experimental_strategy": "RNA-Seq"
+}]
